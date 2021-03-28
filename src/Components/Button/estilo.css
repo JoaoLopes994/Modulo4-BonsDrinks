@@ -1,0 +1,21 @@
+.estiloButton {
+  font-size: 20px;
+  background-color:#5c0511;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  font-weight: bold;
+  padding: 10px;
+  width: 220px;
+  margin-left: 63%;
+}
+.estiloButton:hover {
+  background-color: #F9AE48;
+}
+#itemBonsDrinks {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: black;
+}

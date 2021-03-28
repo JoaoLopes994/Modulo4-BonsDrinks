@@ -20,6 +20,21 @@ Header {
     align-items: center;
     
 }
+a:link {
+    text-decoration: none;
+}
+  
+a:visited{
+    color: #101010;
+}
 .itemLista {
-
+    color: #101010;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.itemLista:hover {
+  color: #f9ae48;
+  text-decoration: none;
+}
+#itemBonsDrinks:hover {
+    color: #f9ae48;
 }

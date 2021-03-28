@@ -1,0 +1,39 @@
+.gridApi {
+    display: grid;
+    grid-template-areas: "cabecalio" "conteudo-Drink";
+    grid-template-rows: 3fr 5fr;
+}
+
+
+.cabecalho {
+    grid-area: cabecalio;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.conteudoDrink {
+    grid-area: conteudo-Drink;
+}
+.drink1 {
+    text-align: center;  
+    margin-top: 40px; 
+}
+.posicaoBotao {
+    display: flex;
+    justify-content: space-around;
+}
+.Button {
+    background-color: brown;
+    color: #fffdf8;
+    font-weight: 700;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.5s ease background-color;
+}

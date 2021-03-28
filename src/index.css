@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border=box;
+}
+:root {
+  --logo-font: "Bilbo Swash Caps",cursive;
+  --title-font: "Open Sans Condensed",sans-serif;
+  --body-font: "Open Sans",sans-serif;
+  --titles-font: "Open Sans Condensed",sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 18px;
+  color: #101010;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

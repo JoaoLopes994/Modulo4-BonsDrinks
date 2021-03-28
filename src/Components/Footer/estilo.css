@@ -1,0 +1,18 @@
+footer {
+    grid-area: footer;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+}
+  
+.pezinho {
+    font-size: medium;
+  }
+.peStilo {
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 0;
+    background-color: #fffbef;
+    place-items: center;
+}

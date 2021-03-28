@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@700&display=swap");
+
+Header {
+    grid-area: header;
+}
+.estiloHeader {
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    background-color: #fffbef;
+
+}
+
+.menuNav {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    
+}
+.itemLista {
+
+}

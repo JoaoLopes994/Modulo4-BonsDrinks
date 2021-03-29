@@ -30,6 +30,7 @@ a:visited{
 .itemLista {
     color: #101010;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 42%);
 }
 .itemLista:hover {
   color: #f9ae48;

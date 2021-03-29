@@ -1,7 +1,7 @@
 .conteudoSobre {
     display: grid;
     grid-area: conteudo;
-    grid-template-areas: "titulo titulo"
+    grid-template-areas: " titulo titulo"
      " imagem texto ";
     grid-template-columns: 2fr 4fr;
     width: 80%;
@@ -26,5 +26,4 @@
 .textoSobre {
     grid-area: texto;
     text-align: justify;
-
 }

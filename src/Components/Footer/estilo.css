@@ -8,12 +8,14 @@ footer {
     bottom: 0px;
 }
   
-.pezinho {
-    font-size: medium;
-  }
 .peStilo {
+    font-size: small;
+    margin-top: 12px;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 42%);
+  }
+.pezinho {
     height: 40px;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     bottom: 0;
     background-color: #fffbef;

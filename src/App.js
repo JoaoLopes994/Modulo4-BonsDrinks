@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import Contato from "./Components/Contato/Contato"
 import Sobre from './Components/Sobre/Sobre';
 import ListaDrinks from "./Components/ListaDrinks/ListaDrinks"
+import NossoTime from "./Components/NossoTime/NossoTime"
 {/* import BuscaDrinks from "./Components/Api/BuscaDrinks";*/} 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/NossoTime">
-            <Home />
+            <NossoTime />
           </Route>
           <Route exact path="/Contato">
             <Contato />

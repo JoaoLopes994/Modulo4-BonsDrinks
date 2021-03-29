@@ -1,0 +1,35 @@
+.conteudoTime {
+    display: grid;
+    grid-area: conteudo;
+    grid-template-areas: " titulo titulo "
+    " imagem texto ";
+    grid-template-columns: 2fr 4fr;
+    width: 80%;
+    justify-self: center;
+    gap: 40px;
+}
+.tituloNossoTime {
+    grid-area: titulo;
+    justify-self: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#5c0511;
+    width: 100%;
+    text-align:center;
+    margin-right: 16px;
+    
+
+}
+.imagemTime {
+    border-radius: 10px;
+    height: 300px;
+    width: 275px;
+    grid-area: imagem;
+    align-self: center;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.textoTime {
+    margin-left: 40px;
+}

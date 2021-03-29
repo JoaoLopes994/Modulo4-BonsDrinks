@@ -1,8 +1,3 @@
-# API TO DO
-- Projeto de aplicativo "to do" do curso Resilia, no módulo 3
-
-## INSTALAÇÃO
-
 # Bons Drinks
 - Projeto do módulo 4 do bootcamp Resilia Educação. 
 

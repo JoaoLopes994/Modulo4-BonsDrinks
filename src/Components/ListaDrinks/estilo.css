@@ -1,21 +1,21 @@
 ::-webkit-scrollbar {
-  width: 16px;
-  height: 20px;
+  width: 12px;
+  height: 18px;
 }
 ::-webkit-scrollbar-thumb {
   background: #5c0511;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #e05a0c;
+  background: #ec9d2e;
 }
-.alinhamentoApi {
+.listaDrinks {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: auto;
 }
-.flex-api {
+.ulDrinks {
   display: grid;
   grid-template-rows: 100px 300px 100px;
   grid-template-columns: 200px 600px 200px;
@@ -45,7 +45,7 @@
   font-weight: bold;
   color:#5c0511;
 }
-.divBotao {
+.divBotoes {
   display: flex;
   justify-content: space-around;
 }
@@ -78,14 +78,14 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-.imgApiSecao {
+.imgListaDrinks {
   margin-top: auto;
   margin-bottom: auto;
   grid-row: 2;
   grid-column: 3;
   justify-self: center;
 }
-.imgApi {
+.imgListaItens {
   width: 160px;
   align-self: center;
   border-radius: 10px;

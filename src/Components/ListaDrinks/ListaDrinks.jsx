@@ -45,11 +45,11 @@ export default function ListaDrinks(props) {
 
   return (
     <div className="divListaDrinks">
-      <div className="alinhamentoApi"></div>
-      <ul className="flex-api">
+      <div className="listaDrinks"></div>
+      <ul className="ulDrinks">
         <section className="cabecalho">
           <h1 className="tituloDrink">Drinks</h1>
-          <div className="divBotao">
+          <div className="divBotoes">
             <button className="botoes">Drinks Populares</button>
             <button className="botoes">Buscar Drinks</button>
           </div>
@@ -67,8 +67,8 @@ export default function ListaDrinks(props) {
         <section className="conteudoDrinks">
           {dadosCategoria(dadosApiConteudo)}
         </section>
-        <section className="imgApiSecao">
-          <img className="imgApi" src={dadosApi[2].strDrinkThumb} />
+        <section className="imgListaDrinks">
+          <img className="imgListaItens" src={dadosApi[0].strDrinkThumb} />
         </section>
       </ul>
     </div>

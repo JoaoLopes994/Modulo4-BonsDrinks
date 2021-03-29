@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-.ulConteudo {
+.listaConteudo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,6 +12,6 @@ h4 {
   display: inline;
 
 }
-.ilConteudo {
+.itensLiConteudo {
   font-family: "Lato", sans-serif;
 }

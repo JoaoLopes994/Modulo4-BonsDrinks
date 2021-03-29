@@ -17,6 +17,5 @@
 ### CSS grid
 
 
-Link para o site [aqui](bons-drinks-joaolopes.netlify.app).
-
+Para acessar o link clique <a href=“https://bons-drinks-joaolopes.netlify.app/“>aqui</a>.
 
